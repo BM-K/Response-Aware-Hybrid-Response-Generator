@@ -38,7 +38,7 @@
 |QRSim|0.0|0.0|0.0|0.0|0.0|0.0|0.0|
 
 ## ToDo
-- [] Data-Preprocessing
+- [ ] Data-Preprocessing
 - [X] Entropy
 - [X] FiD
 - [X] BART FiD
