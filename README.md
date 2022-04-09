@@ -4,7 +4,7 @@
  <img src=https://user-images.githubusercontent.com/55969260/161927957-3f4192a3-ac0d-4df3-8517-2d45f15f5b13.png>
 
 ## Datasets
-| Datasets                  | Business | Shopping | Food | Health |
+| Datasets                  | Business | Shopping | Food |
 |----------|:----:|:----:|:----:|:----:|
 | Train | - | - | - | - |
 | Valid | - | - | - | - |
@@ -31,14 +31,6 @@
 |Model|BLEU-1|BLEU-2|BLEU-3|BLEU-4|Dist-1|Dist-2|Entropy|
 |:----------:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|
 |Base|-|-|-|-|-|-|-|
-|QSim|-|-|-|-|-|-|-|
-|RSim|-|-|-|-|-|-|-|
-|QRSim<sup>†</sup>|-|-|-|-|-|-|-|
-
-### Health
-|Model|BLEU-1|BLEU-2|BLEU-3|BLEU-4|Dist-1|Dist-2|Entropy|
-|:----------:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|
-|Base|15.06|6.86|3.77|2.41|6.75|21.11|10.96|
 |QSim|-|-|-|-|-|-|-|
 |RSim|-|-|-|-|-|-|-|
 |QRSim<sup>†</sup>|-|-|-|-|-|-|-|
