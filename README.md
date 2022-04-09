@@ -5,10 +5,10 @@
 
 ## Datasets
 | Datasets                  | Business | Shopping | Food |
-|----------|:----:|:----:|:----:|:----:|
-| Train | - | - | - | - |
-| Valid | - | - | - | - |
-| Test | - | - | - | - |
+|----------|:----:|:----:|:----:|
+| Train | - | - | - |
+| Valid | - | - | - |
+| Test | - | - | - |
 
 ## Results
 ### Business
