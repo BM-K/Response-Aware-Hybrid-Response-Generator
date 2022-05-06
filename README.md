@@ -4,13 +4,18 @@
  <img src=https://user-images.githubusercontent.com/55969260/161927957-3f4192a3-ac0d-4df3-8517-2d45f15f5b13.png>
 
 ## Datasets
-| Datasets                  | Business | Shopping | Food |
+| Datasets                  | Training | Validation | Testing |
 |----------|:----:|:----:|:----:|
-| Train | - | - | - |
-| Valid | - | - | - |
-| Test | - | - | - |
+| AI-Hub(SBusiness) | 656,332 | 28,361 | 28,464 |
 
 ## Results
+### Retrieval Model
+|Model|Hit@10|Hit@100|MRR@100|
+|:----------:|:----:|:----:|:----:|
+|Q-R<sup>'</sup>|17.43|37.31|9.28|
+|Q-Q<sup>'</sup>|27.51|51.56|16.53|
+|Q-RQ<sup>'</sup>-R<sup>'</sup>-Sim<sup>†</sup>|**36.32**|***62.83*|**21.41**|
+
 ### Business
 |Model|BLEU-1|BLEU-2|BLEU-3|BLEU-4|Dist-1|Dist-2|Entropy|
 |:----------:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|
@@ -19,24 +24,6 @@
 |RSim|28.37|12.89|7.34|4.78|37.94|77.91|10.32|
 |QRSim<sup>†</sup>|**28.76**|**13.24**|**7.61**|**4.86**|38.1|78.72|10.29|
 
-### Shopping
-|Model|BLEU-1|BLEU-2|BLEU-3|BLEU-4|Dist-1|Dist-2|Entropy|
-|:----------:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|
-|Base|-|-|-|-|-|-|-|
-|QSim|-|-|-|-|-|-|-|
-|RSim|-|-|-|-|-|-|-|
-|QRSim<sup>†</sup>|-|-|-|-|-|-|-|
-
-### Food
-|Model|BLEU-1|BLEU-2|BLEU-3|BLEU-4|Dist-1|Dist-2|Entropy|
-|:----------:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|
-|Base|-|-|-|-|-|-|-|
-|QSim|-|-|-|-|-|-|-|
-|RSim|-|-|-|-|-|-|-|
-|QRSim<sup>†</sup>|-|-|-|-|-|-|-|
-
 ## ToDo
-- [ ] Data-Preprocessing
-- [X] Entropy
-- [X] FiD
-- [X] BART FiD
+- [ ] Multi-Turn
+- [ ] Knowledge-Base
