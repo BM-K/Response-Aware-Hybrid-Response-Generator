@@ -28,6 +28,7 @@
 |                  | FAISS | MIPS |
 |----------|:----:|:----:|
 | Latency | 0.127s | 0.474s |
+
 `NOTE`: FAISS Centroid 64
 
 ## ToDo
