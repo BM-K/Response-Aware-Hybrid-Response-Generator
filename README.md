@@ -1,7 +1,6 @@
 # Knowledge-Augmented-Dialogue-Generation
 
 ## Overall Architecture
- <img src=https://user-images.githubusercontent.com/55969260/161927957-3f4192a3-ac0d-4df3-8517-2d45f15f5b13.png>
 
 ## Datasets
 | Datasets                  | Training | Validation | Testing |
