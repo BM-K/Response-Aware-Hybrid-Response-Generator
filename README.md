@@ -1,35 +1,28 @@
-# Knowledge-Augmented-Dialogue-Generation
+# Response-Aware-Hybrid-Response-Generator
+
 
 ## Overall Architecture
 
 ## Datasets
 | Datasets                  | Training | Validation | Testing |
 |----------|:----:|:----:|:----:|
-| AI-Hub(SBusiness) | 656,332 | 28,361 | 28,464 |
+| AI-Hub | 656,332 | 28,361 | 28,464 |
 
 ## Results
 ### Retrieval Model
-|Model|Hit@10|Hit@100|MRR@100|
-|:----------:|:----:|:----:|:----:|
-|Q-R<sup>'</sup>|17.43|37.31|9.28|
-|Q-Q<sup>'</sup>|27.51|51.56|16.53|
-|QR<sup>\*</sup>-Q<sup>'</sup>R<sup>'</sup>|**36.32**|**62.83**|**21.41**|
+|Model|Hit@10|Hit@100|MRR@10|MRR@100|
+|:----------:|:----:|:----:|:----:|:----:|
+|Q-CanAns|14.80|29.29|7.56|8.13|
+|Q-CanQue|28.03|46.61|16.15|16.53|
+|QR<sup>\'</sup>-CanQueAns|**36.61**|**55.28**|**19.50**|**21.41**|
 
-### Hybrid Model w/o KB
+### Hybrid Response Generator
 |Model|BLEU-1|BLEU-2|BLEU-3|BLEU-4|Dist-1|Dist-2|
 |:----------:|:----:|:----:|:----:|:----:|:----:|:----:|
 |NoRet|18.48|12.41|8.65|6.19|1.04|17.41|
-|Q-R<sup>'</sup>|18.27|12.15|8.31|5.79|1.10|20.36|
-|Q-Q<sup>'</sup>|18.52|12.37|8.52|6.01|1.11|20.28|
-|QR<sup>*</sup>-Q<sup>'</sup>R<sup>'</sup>|**19.96**|**13.72**|**9.84**|**7.31**|**1.16**|**22.12**|
-
-### Hybrid Model w/ KB
-|Model|BLEU-1|BLEU-2|BLEU-3|BLEU-4|Dist-1|Dist-2|
-|:----------:|:----:|:----:|:----:|:----:|:----:|:----:|
-|NoRet|18.48|12.41|8.65|6.19|1.04|17.41|
-|Q-R<sup>'</sup>|||||||
-|Q-Q<sup>'</sup>|||||||
-|QR<sup>*</sup>-Q<sup>'</sup>R<sup>'</sup>|||||||
+|Q-CanAns|18.32|12.16|8.31|5.81|1.10|20.17|
+|Q-CanQue|18.61|12.47|8.63|6.12|1.11|20.56|
+|QR<sup>\'</sup>-CanQueAns|**19.96**|**13.72**|**9.84**|**7.31**|**1.16**|**22.12**|
 
 ### Latency
 |                  | FAISS | MIPS |
