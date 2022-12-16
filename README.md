@@ -1,5 +1,5 @@
 # Response-Aware-Hybrid-Response-Generator
-
+Only for inference
 
 ## Overall Architecture
 > **Note** <br>
